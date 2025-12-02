@@ -23,6 +23,7 @@
     <itunes:author>AIDM</itunes:author>
     <itunes:owner>
       <itunes:name>AIDM</itunes:name>
+      <itunes:email>hello@aidatamanagement.com</itunes:email>
     </itunes:owner>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
