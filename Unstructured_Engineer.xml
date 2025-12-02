@@ -1,89 +1,51 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-     xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml-stylesheet type="text/xsl" href="https://media.rss.com/style.xsl"?>
+<rss xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:psc="http://podlove.org/simple-chapters" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="en" version="2.0">
   <channel>
-    <title>n8n Automation Digest</title>
-    <link>https://news2podcast.com</link>
-    <description>
-         Welcome to *n8n Automation Digest*, the podcast inspired by the official n8n blog — your go-to source for mastering workflow automation.
-
-Each episode breaks down key ideas from the blog, covering practical use cases, platform tips, and emerging trends in low-code automation. Whether you're building your first automation or scaling complex processes, this show helps you stay sharp, save time, and do more with less.
-
-Listen weekly, and if you haven’t yet, explore the full blog at n8n.io/blog.
-    </description>
+    <title><![CDATA[Testing Titile 1]]></title>
+    <link>https://rss.com/podcasts/testing-titile-1</link>
+    <atom:link href="https://media.rss.com/testing-titile-1/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+    <description><![CDATA[<p>Testing Descriptio 2</p>]]></description>
+    <generator>RSS.com v4.4.0</generator>
+    <lastBuildDate>Tue, 02 Dec 2025 01:59:40 GMT</lastBuildDate>
     <language>en</language>
-
-    <!-- iTunes-specific metadata -->
-    <itunes:author>n8n Automation Digest | Smart workflows for modern teams</itunes:author>
-    <itunes:summary>
-         Welcome to *n8n Automation Digest*, the podcast inspired by the official n8n blog — your go-to source for mastering workflow automation.
-
-Each episode breaks down key ideas from the blog, covering practical use cases, platform tips, and emerging trends in low-code automation. Whether you're building your first automation or scaling complex processes, this show helps you stay sharp, save time, and do more with less.
-
-Listen weekly, and if you haven’t yet, explore the full blog at n8n.io/blog.
-    </itunes:summary>
-    <itunes:explicit>no</itunes:explicit>
+    <copyright><![CDATA[AIDM]]></copyright>
+    <itunes:image href="https://assets.rss.com/images/no-cover-1400.jpg"/>
+    <podcast:guid>33a15d22-4bb1-53d8-ba4f-522f4f29ea80</podcast:guid>
+    <image>
+      <url>https://assets.rss.com/images/no-cover-1400.jpg</url>
+      <title>Testing Titile 1</title>
+      <link>https://rss.com/podcasts/testing-titile-1</link>
+    </image>
+    <podcast:locked>yes</podcast:locked>
+    <podcast:license>AIDM</podcast:license>
+    <itunes:author>AIDM</itunes:author>
     <itunes:owner>
-      <itunes:name>Acosta</itunes:name>
-      <itunes:email>luis.acosta@news2podcast.com</itunes:email>
+      <itunes:name>AIDM</itunes:name>
     </itunes:owner>
-
-    <!-- Updated image -->
-    <itunes:image href="https://acosta1991.github.io/newsletter2podcast/n8n/logo.png" />
-
-    <!-- Atom self-reference -->
-    <atom:link href="https://acosta1991.github.io/newsletter2podcast/n8n/rss.xml" rel="self" type="application/rss+xml" />
-
-    <!-- Example item (episode) -->
-
-
-<item>
-  <title>What Is AI Sentiment Analysis and How to Build It with n8n?</title>
-  <description>If you have feedback or want to build something similar, contact Luis at Luis.acosta@news2podcast.com. You can also support my work using the following link to try ElevenLabs and create your own project: https://try.elevenlabs.io/ds0cvdfiufax
-
-In this episode of n eight n Podcasts, hosts Alex and Chris unpack the transformative technology of AI sentiment analysis. They delve into what sentiment analysis is, how it uses natural language processing and machine learning to interpret the emotional tone behind text, and why this capability is crucial for modern businesses. With advancements in large language models and user-friendly automation platforms like n eight n, even those without extensive data science backgrounds can now leverage sentiment analysis for decision-making. From tracking brand perception to automating customer support, the hosts share practical examples and illustrate how to build effective workflows using intuitive tools. Join them as they explore the various types of sentiment analysis, the efficiency of multi-agent systems, and the power of automation in gaining actionable insights from text data—all without the need for extensive coding knowledge. This enlightening discussion provides a comprehensive overview for businesses looking to harness the power of AI sentiment analysis in their strategies.</description>
-  <pubDate>Tue, 29 Jul 2025 17:32:41 GMT</pubDate>
-  <enclosure url="https://drive.google.com/uc?id=1LTWShFrubo83-zuhaoo8KJ21SVfT-t8X&export=download" length="1234567" type="audio/mpeg" />
-  <guid isPermaLink="false">1753810361306</guid>
-</item>
-
-
-
-<item>
-  <title>New plan, no active workflow limits — n8n's new pricing explained.</title>
-  <description>If you have feedback or want to build something similar, contact Luis at Luis.acosta@news2podcast.com. You can also support my work using the following link to try ElevenLabs and create your own project: https://try.elevenlabs.io/ds0cvdfiufax
-
-In this episode of the N Eight N Podcast, hosts Alex and Chris delve into the recent transformative updates to N Eight N's pricing structure, spurred by extensive community feedback. They discuss how traditional pricing models often hinder innovation and experimentation, leading N Eight N to overhaul its approach. Listeners will learn about the elimination of limits on active workflows across all plans, allowing for unlimited creativity without the worry of mounting costs. The introduction of the Business Plan is also highlighted, which caters to growing teams with advanced collaboration tools and enterprise-grade security features. Furthermore, Chris and Alex break down how the new execution-based pricing model enables enterprises to scale without budget constraints. Fostering a climate of innovation, collaboration, and cost predictability, this episode is a must-listen for anyone interested in maximizing their automation potential with N Eight N. Tune in to discover how these changes can revolutionize the way you build and scale automations!</description>
-  <pubDate>Tue, 12 Aug 2025 07:22:40 GMT</pubDate>
-  <enclosure url="https://drive.google.com/uc?id=1LTWShFrubo83-zuhaoo8KJ21SVfT-t8X&export=download" length="1234567" type="audio/mpeg" />
-  <guid isPermaLink="false">1754983360655</guid>
-</item>
-
-
-<item>
-  <title>12 Best Autonomous AI Agents – 2025’s Top Picks</title>
-  <description>In this episode of n eight n Podcasts, we explore the exhilarating domain of autonomous AI agents and highlight twelve groundbreaking tools projected to reshape workflows by 2025. Join hosts Alex and his co-host as they dissect how these intelligent agents can autonomously handle repetitive tasks, allowing you to focus on more engaging aspects of your work. The conversation delves into the pivotal differences between traditional and autonomous AI, emphasizing the importance of balancing oversight with freedom in various business environments. 
-
-Listeners will discover the core characteristics of autonomous AI agents, such as their goal-driven nature and strategic planning capabilities, alongside practical use cases from research to decision-making that highlight their efficiency. The hosts introduce a diverse lineup of top autonomous agents tailored for different industries, including innovative platforms like Lindy AI and VAPI, illustrating how these tools can seamlessly integrate into your existing operations. 
-
-Finally, we discuss how n eight n empowers users to build customized agents that fit specific business needs, ensuring performance through built-in evaluation frameworks. Tune in for an enlightening overview that teases the potential of AI to transform the future of work, and gain insights into how you can implement these advancements in your own organization! Don’t forget to check out n eight n dot io for more inspiration and subscribe for future episodes that will keep you at the forefront of technology.</description>
-  <pubDate>Fri, 22 Aug 2025 19:12:16 GMT</pubDate>
-  <enclosure url="https://drive.google.com/uc?id=1LTWShFrubo83-zuhaoo8KJ21SVfT-t8X&export=download" length="1234567" type="audio/mpeg" />
-  <guid isPermaLink="false">1755889936883</guid>
-</item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</channel>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="Business">
+      <itunes:category text="Entrepreneurship"/>
+    </itunes:category>
+    <podcast:medium>podcast</podcast:medium>
+    <item>
+      <title><![CDATA[Testing]]></title>
+      <itunes:title><![CDATA[Testing]]></itunes:title>
+      <description><![CDATA[<p>Testing Description</p>]]></description>
+      <link>https://rss.com/podcasts/testing-titile-1/2363194</link>
+      <enclosure url="https://content.rss.com/episodes/358200/2363194/testing-titile-1/2025_12_02_01_39_42_594a8e25-5300-4282-98f7-4f8488b67799.mp3" length="5554304" type="audio/mpeg"/>
+      <guid isPermaLink="false">0c422fee-fc66-48aa-ae9f-1c2d24defdcf</guid>
+      <itunes:duration>347</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <podcast:season>1</podcast:season>
+      <itunes:episode>1</itunes:episode>
+      <podcast:episode>1</podcast:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 02 Dec 2025 01:59:40 GMT</pubDate>
+    </item>
+  </channel>
 </rss>
