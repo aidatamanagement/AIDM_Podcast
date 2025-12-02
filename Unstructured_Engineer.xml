@@ -47,5 +47,21 @@
       <itunes:explicit>false</itunes:explicit>
       <pubDate>Tue, 02 Dec 2025 01:59:40 GMT</pubDate>
     </item>
+    <item>
+      <title><![CDATA[Testing reg]]></title>
+      <itunes:title><![CDATA[Testing itunes]]></itunes:title>
+      <description><![CDATA[<p>Testing Description 2</p>]]></description>
+      <link>https://rss.com/podcasts/testing-titile-1/2363194</link>
+      <enclosure url="https://oimqzyfmglyhljjuboek.supabase.co/storage/v1/object/public/AIDM_Podcast_Audio_Files/AIDM_Podcast.mp3" length="5554304" type="audio/mpeg"/>
+      <guid isPermaLink="false">0c422fee-fc66-48aa-ae9f-1c2d24defdcf</guid>
+      <itunes:duration>347</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <podcast:season>1</podcast:season>
+      <itunes:episode>1</itunes:episode>
+      <podcast:episode>1</podcast:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 02 Dec 2025 01:59:40 GMT</pubDate>
+    </item>
   </channel>
 </rss>
