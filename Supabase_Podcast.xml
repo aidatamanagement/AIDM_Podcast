@@ -11,7 +11,7 @@
     <description>A podcast powered by Supabase-hosted audio files.</description>
 
     <!-- Set this to the final public URL where THIS RSS XML is hosted -->
-    <atom:link href="REPLACE_WITH_YOUR_FINAL_RSS_URL" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://raw.githubusercontent.com/aidatamanagement/AIDM_Podcast/main/Supabase_Podcast.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Recommended metadata -->
     <lastBuildDate>Wed, 03 Dec 2025 10:15:00 -0500</lastBuildDate>
