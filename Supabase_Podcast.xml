@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+  <channel>
+    <title>AIDM Podcast Supabase testing</title>
+    <link>https://aidatamanagement.com/</link>
+    <language>en-us</language>
+    <description>A podcast powered by Supabase-hosted audio files.</description>
+
+    <!-- Set this to the final public URL where THIS RSS XML is hosted -->
+    <atom:link href="REPLACE_WITH_YOUR_FINAL_RSS_URL" rel="self" type="application/rss+xml"/>
+
+    <!-- Recommended metadata -->
+    <lastBuildDate>Wed, 03 Dec 2025 10:15:00 -0500</lastBuildDate>
+    <itunes:type>episodic</itunes:type>
+
+    <!-- Spotify reads iTunes podcast tags -->
+    <itunes:author>Shubakar</itunes:author>
+    <itunes:summary>A podcast powered by Supabase-hosted audio files.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+
+    <itunes:owner>
+      <itunes:name>Shubakar Poda</itunes:name>
+      <itunes:email>hello@aidatamanagement.com</itunes:email>
+    </itunes:owner>
+
+    <itunes:category text="Technology"/>
+
+    <!-- Prefer hosting your own cover art long-term, but this URL is syntactically fine -->
+    <itunes:image href="https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ff/6d/e4/ff6de4b5-7eda-aa9a-bb9e-aedcfe6d72d8/mza_7740481562964404675.jpg/1200x1200bf-60.jpg"/>
+
+    <!-- Optional nice-to-haves -->
+    <itunes:subtitle>Supabase-hosted podcast feed test</itunes:subtitle>
+    <itunes:keywords>supabase, podcast, testing, aidm</itunes:keywords>
+
+    <!-- ==================== Episode 1 ==================== -->
+    <item>
+      <title>Episode 1 - Testing Audio</title>
+      <description>Episode 1 using the Supabase public audio file.</description>
+      <content:encoded><![CDATA[Episode 1 using the Supabase public audio file.]]></content:encoded>
+
+      <guid isPermaLink="false">aidm-testing-ep1</guid>
+      <pubDate>Wed, 03 Dec 2025 10:00:00 -0500</pubDate>
+
+      <!-- IMPORTANT:
+           Replace REPLACE_WITH_FILE_SIZE_BYTES with the MP3 size in BYTES (Content-Length).
+           Many directories dislike length="0". -->
+      <enclosure
+        url="https://oimqzyfmglyhljjuboek.supabase.co/storage/v1/object/public/AIDM_Podcast_Audio_Files/testing.mp3"
+        length="3189760"
+        type="audio/mpeg" />
+
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+
+      <!-- Optional (Spotify can infer it, but explicit is better if you know it) -->
+      <!-- <itunes:duration>00:05:12</itunes:duration> -->
+    </item>
+
+    <!-- ==================== Episode 2 (same audio URL) ==================== -->
+    <item>
+      <title>Episode 2 - Testing Audio (Replay)</title>
+      <description>Episode 2 using the same Supabase audio file.</description>
+      <content:encoded><![CDATA[Episode 2 using the same Supabase audio file.]]></content:encoded>
+
+      <guid isPermaLink="false">aidm-testing-ep2</guid>
+      <pubDate>Wed, 03 Dec 2025 10:10:00 -0500</pubDate>
+
+      <enclosure
+        url="https://oimqzyfmglyhljjuboek.supabase.co/storage/v1/object/public/AIDM_Podcast_Audio_Files/testing.mp3"
+        length="3189760"
+        type="audio/mpeg" />
+
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+
+      <!-- <itunes:duration>00:05:12</itunes:duration> -->
+    </item>
+
+  </channel>
+</rss>
