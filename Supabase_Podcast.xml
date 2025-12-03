@@ -81,6 +81,25 @@
 
       <!-- <itunes:duration>00:05:12</itunes:duration> -->
     </item>
+<!-- ==================== Episode 3 (same audio URL) ==================== -->
+    <item>
+      <title>Episode 3 - Testing Audio (Replay)</title>
+      <description>Episode 3 using the same Supabase audio file but different url.</description>
+      <content:encoded><![CDATA[Episode 3 using the same Supabase audio file.]]></content:encoded>
 
+      <guid isPermaLink="false">aidm-testing-ep3</guid>
+      <pubDate>Wed, 03 Dec 2025 11:20:00 -0500</pubDate>
+
+      <enclosure
+        url="https://oimqzyfmglyhljjuboek.supabase.co/storage/v1/object/public/AIDM_Podcast_Audio_Files/AIDM_Podcast%20(3).mp3"
+        length="3189760"
+        type="audio/mpeg" />
+
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+
+      <!-- <itunes:duration>00:05:12</itunes:duration> -->
+    </item>
   </channel>
 </rss>
