@@ -5,10 +5,10 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
   <channel>
-    <title>AIDM Podcast Supabase testing</title>
+    <title>AIDM Podcast</title>
     <link>https://aidatamanagement.com/</link>
     <language>en-us</language>
-    <description>A podcast powered by Supabase-hosted audio files.</description>
+    <description>A podcast powered by AIDM</description>
 
     <!-- Set this to the final public URL where THIS RSS XML is hosted -->
     <atom:link href="https://raw.githubusercontent.com/aidatamanagement/AIDM_Podcast/main/Supabase_Podcast.xml" rel="self" type="application/rss+xml"/>
@@ -18,7 +18,7 @@
     <itunes:type>episodic</itunes:type>
 
     <!-- Spotify reads iTunes podcast tags -->
-    <itunes:author>Shubakar</itunes:author>
+    <itunes:author>Keith Coe</itunes:author>
     <itunes:summary>A podcast powered by Supabase-hosted audio files.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
 
