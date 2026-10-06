@@ -36,7 +36,7 @@ Created by AI. Delivered by AI. Engineered for humans.</description>
     <itunes:category text="Technology"/>
 
     <!-- Prefer hosting your own cover art long-term, but this URL is syntactically fine -->
-    <itunes:image href="https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ff/6d/e4/ff6de4b5-7eda-aa9a-bb9e-aedcfe6d72d8/mza_7740481562964404675.jpg/1200x1200bf-60.jpg"/>
+    <itunes:image href="https://auth.aidatamanagement.com/storage/v1/object/public/AIDM_Podcast_Audio_Files/TheUnstructuredEngineerLogo.png"/>
 
     <!-- Optional nice-to-haves -->
     <itunes:subtitle>Season 2: From data to deployment</itunes:subtitle>
